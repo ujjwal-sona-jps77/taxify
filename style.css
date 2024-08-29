@@ -1,0 +1,187 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Noto Sans", sans-serif;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+main {
+  position: relative;
+  overflow: hidden;
+}
+
+html.lenis,
+html.lenis body {
+  height: auto;
+}
+
+.lenis.lenis-smooth {
+  scroll-behavior: auto !important;
+}
+
+.lenis.lenis-smooth [data-lenis-prevent] {
+  overscroll-behavior: contain;
+}
+
+.lenis.lenis-stopped {
+  overflow: hidden;
+}
+
+.lenis.lenis-smooth iframe {
+  pointer-events: none;
+}
+
+@media screen and (max-width: 2200px) {
+  /* .mobile {
+    display: none;
+  } */
+}
+
+@media screen and (max-width: 670px) {
+  main {
+    position: relative;
+    overflow: hidden;
+    background-color: #f5f5f5;
+  }
+
+  .mobile {
+    display: block;
+  }
+
+  nav {
+    position: fixed;
+    width: 100%;
+    height: 7vh;
+    display: flex;
+    z-index: 99;
+    backdrop-filter: blur(5px);
+    justify-content: space-between;
+    align-items: center;
+    padding: 1vw;
+  }
+
+  .mobile .page1 {
+    width: 100%;
+    height: auto;
+    padding: 2vw;
+    /* padding: 5vw; */
+    /* background-color: salmon; */
+  }
+
+  #heading {
+    font-size: 6vw;
+    font-weight: 700;
+  }
+
+  #menu {
+     font-size: 5.9vw;
+     font-weight: 900;
+  }
+
+  #ques1 {
+    font-size: 7vw;
+  }
+
+  #tax_det {
+    margin-top: 4vw;
+    font-size: 4vw; 
+    text-align: left;
+  }
+
+  .tax {
+    width: 100%;
+    height: auto;
+    background-color: rgb(255, 136, 136);
+    padding: 3vw;
+    margin-top: 15vw;
+  }
+
+  .why_tax {
+    background-color: rgb(250, 215, 59);
+    width: 100%;
+    padding: 2vw;
+    margin-top: 9vw;
+  }
+
+  .points {
+    width: 100%;
+    padding: 5vw 3vw;
+    text-align: left;
+  }
+
+  .page2 {
+    width: 100%;
+    margin-top: 5vw;
+    min-height: 100vh;
+    background-color: rgb(138, 221, 189);
+  }
+
+  .elems {
+    width: 100%;
+    height: auto;
+    padding: 3vw;
+  }
+
+  #head_inn {
+    font-size: 5vw;
+  }
+
+  #head_inner {
+    font-size: 3.7vw;
+  }
+
+  .ins {
+    width: 80vw;
+    padding: 5vw;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #nope {
+    font-weight: bolder;
+    font-size: 5vw;
+  }
+
+  .menu_in {
+    background-color: rgb(255, 255, 255);
+    width: 80%;
+    height: 100vh;
+    position: fixed;
+    transition: all ease 1s;
+    left: -80%;
+    z-index: 99;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+  }
+
+  .innner {
+    /* background-color: red; */
+    width: 100%;
+    height: auto;
+    margin-bottom: 40vw;
+    font-size: 11vw;
+    margin-left: 2vw;
+    position: relative;
+  }
+
+  .menu_in i {
+    font-size: 11vw;
+    position: absolute;
+    top: 3vw;
+    right: 3vw;
+  }
+
+}
