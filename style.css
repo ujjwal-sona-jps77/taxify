@@ -63,7 +63,7 @@ html.lenis body {
     height: 7vh;
     display: flex;
     z-index: 99;
-    backdrop-filter: blur(5px);
+    backdrop-filter: blur(2px);
     justify-content: space-between;
     align-items: center;
     padding: 1vw;
